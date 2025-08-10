@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="styles.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML info</title>
+</head>
+<body>
+    <h1>Everything you need to know about HTML</h1>
+    <h2>Breakdown of HTML fundamentals</h2>
+        <p>HTML is a markup language used to create web pages. It consists of various elements that define the structure and content of a webpage.</p><br>
+        <h3>Click here to go back to the homepage</h3> <a href="index.html" style="display: block; text-align: center;">Back to Home</a><br>
+        <h3>Document structure</h3>
+        <p>An HTML document starts with a doctype declaration, followed by the &lt;html&gt; tag, which contains the &lt;head&gt; and &lt;body&gt; sections.</p><br>
+    <h3>Elements</h3>
+        <p>An element is everything from the opening tag to the closing tag, including the content in between.</p><br>
+        <h3>Tags</h3>
+        <p>Tags are the keywords surrounded by angle brackets.<br> Opening tag: &lt;p&gt;<br> Closing tag: &lt;/p&gt;<br>Closing tags are identified by the forward slash at the beginning. There are also self closing tags that stand alone and dont require the slash.</p>
+        <h3>Attributes</h3>
+        <p>Attributes provide additional information about an element. They are always specified in the opening tag.</p><br>
+        <span style="color: red;">Example of an attribute:</span> <br>
+        <pre>
+            In the example below, the href <strong>attribute</strong> specifies the URL of the link.
+        &lt;a href="index.html" title="Go to homepage"&gt;Home&lt;/a&gt;
+        </pre>
+        <h3>Self-closing tags</h3>
+        <p>Self-closing tags do not have a closing tag. They are used for elements that do not have any content, like the line break tag &lt;br&gt;.</p><br>
+        <h3>Links</h3>
+        <p>Links are created using the anchor tag &lt;a&gt;. The href attribute specifies the URL of the page the link goes to.</p><br>
+        <h3>Styling</h3>
+        <p>Styling can be applied to elements using the style attribute, which allows you to change colors, fonts, and other properties.</p><br>
+        <h3>Value</h3>
+        <p>The value of an attribute is the information assigned to it. For example, in the link above, the value of the href attribute is "index.html" (which is the file name of the homepage).</p><br>
+        <h3>content</h3>
+        <p>Content is the text or other elements that are placed between the opening and closing tags of an element. Typically anything that would appear on the webpage is considered content.</p><br>
+        <h3>comment</h3>
+        <p>Comments are used to leave notes in the code that will not be displayed on the page. They are written like this: &lt;!-- This is a comment --&gt;.</p><br>
+        <h3>doctype</h3>
+        <p>The doctype declaration is the first line of an HTML document and tells the browser what version of HTML is being used. It looks like this: &lt;!DOCTYPE html&gt;.</p><br>
+        <h2><em>Exploring HTML deeper</em></h2>
+        <h3>Adding images</h3>
+        <p>Images can be added to a webpage using the &lt;img&gt; tag. The src(stands for source) attribute specifies the URL of the image, and the alt attribute provides alternative text for accessibility. Just like the &lt;br&gt; tag, the &lt;img&gt; tag is an empty or self closing tag. We can also use attributes like width and height to change the size of the image.</p><br>
+        <pre>
+            This is an example of an image tag with the alt attribute, which is used to describe the image for accessibility purposes. The example below is taken straight from the homepage of this website.
+            &lt;img src="webpagebanner.png" alt="Web Development Banner" width="100%"&gt;
+        </pre>
+        <h3>Structuring text with tags</h3>
+        <p>We're already familiar with the &lt;br&gt; tag, which adds line breaks to the webpage. There's also the &lt;em&gt; (meaning emphasis) tag, which does have an opening and closing tag. this tag makes text italic. Then there's the &lt;strong&gt; tag which makes text <strong>bold</strong>.<br>We can also structure the way the content appears in the webpage with the div(division) tag. With the div tag we can structure and style elements together.</p>
+        <h3>Lists</h3>
+        <p>Lists can be created using the &lt;ul&gt; (unordered list) or &lt;ol&gt; (ordered list) tags. Each item in the list is defined with the &lt;li&gt; tag. Unordered lists use bullet points, while ordered lists use numbers.</p><br>
+
+</body>
+</html>

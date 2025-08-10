@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="styles.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS info</title>
+</head>
+<body>
+    <h1>All you need to know about CSS</h1>
+     <h2>Breakdown of CSS fundamentals</h2>
+        <p>With CSS we have the option to create an independant file or style sheet to customize the website. To include a style sheet in an html file we use the link element, which is a self closing empty element, that goes inside the head element. to create the stylesheet we must add in &lt;link rel="stylesheet" href="styles.css"&lt;</p>
+        <h3>Click here to return to the homepage</h3> <a href="index.html" style="display: block; text-align: center;">Back to home</a><br>
+        <h3>Selector</h3>
+        <p>A selector is used to target an HTML element to apply styles to it. It can be an element name, class, or ID.</p><br>
+        <h3>Property</h3>
+        <p>A property is a style attribute that can be applied to an element, such as color, font-size, or margin.</p><br>
+        <h3>Value</h3>
+        <p>A value is the specific setting for a property, such as "red" for color or "16px" for font-size.</p><br>
+        <h3>Declaration</h3>
+        <p>A declaration is a combination of a property and a value, written like this: color: red;.</p><br>
+        <h3>Declaration block</h3>
+        <p>A declaration block is a group of declarations enclosed in curly braces, like this: { color: red; font-size: 16px; }.</p><br>
+        <h3>Rule set</h3>
+        <p>A rule set is a combination of a selector and a declaration block, like this: p { color: red; font-size: 16px; }.</p><br>
+        <h3>Class selector</h3>
+        <p>A class is a way to group elements together to apply the same styles to them. It is defined with a period before the class name, like this: .my-class { color: blue; }.</p><br>
+        <h3>ID selector</h3>
+        <p>An ID is a unique identifier for an element. It is defined with a hashtag before the ID name, like this: #my-id { color: green; }. Unlike class selectors, ID selectors must be unique, meaning they can only be applied to a single element.</p><br>
+        <h3>Universal selector</h3>
+        <p>The universal selector is used to select all elements on a page. It is represented by an asterisk (*), like this: * { margin: 0; padding: 0; }.</p><br>
+        <h2>Exploring CSS deeper</h2>
+        <h3>exploring design</h3>
+        <p>CSS allows us to create visually appealing designs for our webpages. We can use properties like background-color, border, and box-shadow to enhance the appearance of elements. We can also make our colors more interesting using gradients, to further enhance our design.</p><br>
+        <h3>common CSS properties</h3>
+        <ul>
+            <li>Color: Used to change the color of the specified element. When applied to text based elements, it changes the color of the text.</li>
+            <li>Background-color: Used to change the background color of an element.</li>
+            <li>Background-image: Used to set an image as the background of an element.</li>
+            <li>Font-size: Used to change the size of the text.</li>
+            <li>Font-family: Used to change the font of the text.</li>
+            <li>Font-weight: Used to change the thickness of the text.</li>
+            <li>font-style: Used to specify the style of the text. Common values include normal (default), italic, and oblique.</li>
+            <li>text-align: Used to control the horizontal alignment of text within its containing element. Common values include left (default), center, right, and justify.</li>
+            <li>text-decoration: Used to specify the decoration added to text, such as underline, overline, or line-through.</li>
+            <li>line-height: Used to control the amount of space above and below inline elements. It is commonly used to improve readability.</li>
+            <li>letter-spacing: Used to control the space between individual letters in text.</li>
+            <li>word-spacing: Used to control the space between words in text.</li>
+            <li>margin: Used to create space around elements, outside of any defined borders.</li>
+            <li>padding: Used to create space around an element's content, inside of any defined borders.</li>
+            <li>border: used to create a visible border line around elements.</li>
+            <li>border-radius: Used to round the corners of an element's border. Values can be specified in pixels (px), percentages (%), or other units to create rounded corners.</li>
+            <li>width: Used to set the width of an element. Values can be specified in pixels (px), percentages (%), or other units like em, rem, or viewport units (vw).</li>
+            <li>height: Used to set the height of an element. Values can be specified in pixels (px), percentages (%), or other units like em, rem, or viewport units (vh).</li>
+            <li>box-shadow: Used to add shadow effects around an element's frame. Values include horizontal offset, vertical offset, blur radius, spread radius, and color (e.g., box-shadow: 2px 2px 4px rgba(0,0,0,0.3)).</li>
+            <li>display: Used to control how an element is displayed. Common values include block, inline, inline-block, flex, grid, and none (hides the element).</li>
+            <li>position: Used to control the positioning of an element. Common values include static (default), relative, absolute, and fixed.</li>
+            <li>top, right, bottom, left: Used to control the position of an element when it is positioned (e.g., relative, absolute, fixed).</li>
+            <li>overflow: Used to control what happens when content overflows an element's box. Common values include visible (default), hidden, scroll, and auto.</li>
+            <li>opacity: Used to control the transparency of an element. Values range from 0 (completely transparent) to 1 (completely opaque).</li>
+            <li>z-index: Used to control the stacking order of positioned elements. Higher values are stacked on top of lower values.</li>
+            <li>cursor: Used to control the type of cursor displayed when hovering over an element. Common values include default, pointer (hand), and text.</li>
+        </ul>
+        <h3>Responsive design</h3>
+        <p>CSS also allows us to create responsive designs that adapt to different screen sizes. We can use media queries to apply different styles based on the device's width, height, or orientation. This ensures that our webpages look good on both desktop and mobile devices. </p><br>
+        <h3>Putting selectors into practice</h3>
+        <p>Now that we understand the different types of selectors, let's see how we can use them in our CSS. For example, we can use a class selector to apply styles to all elements with a specific class:</p>
+        <pre>
+.my-class {
+    color: blue;
+    font-size: 16px;
+}
+<span>when we want to use this class in our HTML we would write it like this: &lt;div class="my-class"&gt;This is a div with a class.&lt;/div&gt;</span>
+        </pre>
+        <p>We can also use an ID selector to apply styles to a specific element:</p>
+        <pre>
+#my-id {
+    color: green;
+    font-size: 18px;
+}
+        </pre>
+        <p>Finally, we can use the universal selector to apply styles to all elements on the page:</p>
+        <pre>
+* {
+    margin: 0;
+    padding: 0;
+}
+        </pre>
+        <h3>Putting properties into practice</h3>
+        <p>For some properties, it is straightforward to use them simply based off of their name, but for others, it can be incredibly useful to have a reference. Below will be examples of how to use various properties that may require a deeper understanding.</p>
+        <div class="textblock">
+        <h4>Background image</h4>
+           Using this property, we can set any elements background to an image.
+            <pre>
+            body {
+                background-image: url('urimagelol.jpg');
+            }
+            </pre>
+            <h4>Margin, Padding, and Border</h4>
+            These properties all effect the the area surrounding your elements, as well as the spacing between them.We can define each of their dimensions to set different amounts of space between different elements.
+            <h5><strong>margin:</strong></h5> The space outside an element.
+            <h5><strong>padding:</strong></h5> The space inside an element, between the content and the border.
+            <h5><strong>border:</strong></h5> A line that goes around an element, between the padding and the margin.
+            <h5><strong>border-radius:</strong></h5> Rounds the corners of an element's border.
+          When using the border-radius, margin and padding properties, we set the size for the top, right, bottom, and left. We can define their size in a couple ways. The example below sets the margin and padding to 10px on all sides.
+            <pre>
+            P {
+                border-radius: 10px;
+                Margin: 10px;
+                padding: 10px;
+            }
+            </pre>
+           We can also define the size for each side independantly by spelling out each side we want, ie; margin-top, padding-left, etc. In the example, you can see the use of shorthand syntax to set values for all four sides at once
+            <pre>
+            p {
+                margin: 10px 20px 15px 5px; /* top right bottom left */
+                padding: 5px 10px; /* top/bottom right/left */
+                border-radius: 8px 16px 8px 16px; /* top-left, top-right, bottom-right, bottom-left */
+            }
+            </pre>
+           This allows you to quickly set multiple values in a single line.</div>
+    </body>
+</html>

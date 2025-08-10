@@ -1,0 +1,85 @@
+body {
+    background: linear-gradient(to bottom, darkcyan, lightblue);
+    font-family: Arial, Helvetica, sans-serif;
+    min-height: 120vh;
+    padding-bottom: 50px;
+}
+h1 {
+    color: goldenrod;
+    font-style: italic;
+    text-align: center;
+}
+h2 {
+    color: gold;
+    font-style: oblique;
+    text-align: center;
+}
+h3 {
+    color: gold;
+    font-style: normal;
+    text-align: center;
+    border: darkcyan;
+    box-shadow: 4px 4px 12px rgba(41, 41, 41, 0.2);
+    border-radius: 10px;
+    background-color: black;
+    font-size: 28px;
+}
+a { background-color: black;
+    color: lightcyan;
+    text-decoration: none;
+    border: solid 2px darkcyan;
+    border-radius: 5px;
+}
+a:hover {
+    border: 3px dotted darkcyan;
+    color: black;
+    background-color: lightcyan;
+    text-decoration: underline;
+}
+p {
+    color: lightcyan;
+    font-size: 16px;
+    line-height: 1.5;
+    text-align: center;
+    border: 8px double darkcyan;
+    border-radius: 10px;
+    padding: 10px; 
+    background-color: black;
+     box-shadow: 4px 4px 12px rgba(41, 41, 41, 0.2);
+}
+ul {
+    list-style-type: square;
+    padding: 10px;
+    margin: 20px auto;
+    background-color: lightcyan;
+    border: 2px solid darkcyan;
+    border-radius: 10px;
+}
+pre {
+    background-color: lightcyan;
+    padding: 10px;
+    border-radius: 10px;
+    overflow-x: auto;
+    font-family: 'Courier New', Courier, monospace;
+    border: 2px solid black;
+    color: black;
+}
+h4 {
+    font-size: 24px;
+    color: gold;
+}
+.textblock {
+    display: block;
+    border: solid 3px darkcyan;
+    border-radius: 10px;
+    background-color: black;
+    color: lightcyan;
+    padding: 10px;
+    margin: 15px auto;
+    box-shadow: 4px 4px 12px rgba(41, 41, 41, 0.2);
+    max-width: 800px;
+}
+h5 {
+    font-size: 20px;
+    color: gold;
+}
